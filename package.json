@@ -1,35 +1,47 @@
 {
-  "name": "jasycles",
-  "version": "1.0.0",
-  "private": true,
-  "description": "jasycles",
-  "author": "JashanDhiman",
-  "keywords": [
-    "gatsby"
-  ],
-  "scripts": {
-    "develop": "gatsby develop",
-    "start": "gatsby develop",
-    "build": "gatsby build",
-    "serve": "gatsby serve",
-    "clean": "gatsby clean",
-    "typecheck": "tsc --noEmit"
-  },
-  "dependencies": {
-    "gatsby": "^5.6.1",
-    "gatsby-plugin-image": "^3.6.0",
-    "gatsby-plugin-postcss": "^6.6.0",
-    "gatsby-plugin-sharp": "^5.6.0",
-    "gatsby-source-filesystem": "^5.6.0",
-    "gatsby-transformer-sharp": "^5.6.0",
-    "postcss": "^8.4.21",
-    "react": "^18.2.0",
-    "react-dom": "^18.2.0"
-  },
-  "devDependencies": {
-    "@types/node": "^18.11.18",
-    "@types/react": "^18.0.27",
-    "@types/react-dom": "^18.0.10",
-    "typescript": "^4.9.5"
-  }
+ "name": "jasycles",
+ "version": "1.0.0",
+ "private": true,
+ "description": "jasycles",
+ "author": "JashanDhiman",
+ "keywords": [
+  "gatsby"
+ ],
+ "scripts": {
+  "develop": "gatsby develop",
+  "start": "gatsby develop",
+  "build": "gatsby build",
+  "serve": "gatsby serve",
+  "clean": "gatsby clean",
+  "typecheck": "tsc --noEmit",
+  "build:css": "postcss src -w"
+ },
+ "dependencies": {
+  "@preact/signals-react": "^1.2.2",
+  "gatsby": "^5.6.1",
+  "gatsby-plugin-image": "^3.6.0",
+  "gatsby-plugin-postcss": "^6.6.0",
+  "gatsby-plugin-sharp": "^5.6.0",
+  "gatsby-source-filesystem": "^5.6.0",
+  "gatsby-transformer-sharp": "^5.6.0",
+  "react": "^18.2.0",
+  "react-dom": "^18.2.0"
+ },
+ "browserslist": [
+  "defaults"
+ ],
+ "devDependencies": {
+  "@types/node": "^18.11.18",
+  "@types/react": "^18.0.27",
+  "@types/react-dom": "^18.0.10",
+  "autoprefixer": "^10.4.13",
+  "postcss": "^8.4.21",
+  "postcss-custom-media": "^9.1.2",
+  "postcss-import": "^15.1.0",
+  "postcss-media-minmax": "^5.0.0",
+  "postcss-mixins": "^9.0.4",
+  "postcss-preset-env": "^8.0.1",
+  "typescript": "^4.9.5",
+  "typescript-plugin-css-modules": "^4.2.2"
+ }
 }

@@ -1,0 +1,23 @@
+/*#fcfcfc
+#542c8d*/
+.headerSection {
+ display: flex;
+ justify-content: space-between;
+ background-color: #fcfcfc;
+ color: #542c8d;
+ border-bottom: 1px solid black;
+ align-items: center;
+ height: 10vh;
+ text-decoration: none !important;
+}
+.list {
+ display: flex;
+ list-style: none;
+ gap: clamp(1.6rem, 3.5vw, 3.2rem);
+ font-size: clamp(1.8rem, 2vw, 2.2rem);
+ text-transform: capitalize;
+ & li:hover {
+  color: black;
+  text-decoration: underline;
+ }
+}
